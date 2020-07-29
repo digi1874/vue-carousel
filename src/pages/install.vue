@@ -32,8 +32,8 @@ export default {
   data () {
     return {
       // Unterminated template
-      cndCode: '<scr' + 'ipt src="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.0/carousel.min.js"></sc' + `ript>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.0/carousel.min.css">`,
+      cndCode: '<scr' + 'ipt src="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.2/dist/carousel.min.js"></sc' + `ript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.2/dist/carousel.min.css">`,
       npmCode1: `// main.js
 import Carousel form '@digi1874/vue-carousel'
 import '@digi1874/vue-carousel/dist/carousel.css'
