@@ -2,5 +2,9 @@ language: node_js
 node_js:
   - 13
 cache: yarn
+before_script:
+  - yarn global add codecov
+after_script:
+  - codecov
 script:
   - npm run test:unit
