@@ -180,6 +180,7 @@ import 'animate.css/source/${cssPath(formData.inAnimateOtherSide)}'`) + `
 import 'animate.css/source/${cssPath(formData.outAnimate)}.css'` +
 (formData.outAnimate === formData.outAnimateOtherSide ? '' : `
 import 'animate.css/source/${cssPath(formData.outAnimateOtherSide)}'`) + `
+import '@digi1874/vue-carousel/dist/carousel.css'
 
 export default {
   components: { Carousel }

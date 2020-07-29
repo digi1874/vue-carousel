@@ -49,7 +49,6 @@ const packageJson = _.pick(jsonfile.readFileSync(packageFile), [
   'module',
   'unpkg',
   'jsdelivr',
-  'files',
   'repository',
   'keywords',
   'author',

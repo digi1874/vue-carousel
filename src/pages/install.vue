@@ -36,6 +36,8 @@ export default {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.0/carousel.min.css">`,
       npmCode1: `// main.js
 import Carousel form '@digi1874/vue-carousel'
+import '@digi1874/vue-carousel/dist/carousel.css'
+
 Vue.use(Carousel)
 
 // page.vue
@@ -47,6 +49,8 @@ Vue.use(Carousel)
 <Carousel>...</Carousel>
 ...
 import { Carousel } form '@digi1874/vue-carousel'
+import '@digi1874/vue-carousel/dist/carousel.css'
+
 export default {
   components: { Carousel }
 }

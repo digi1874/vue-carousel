@@ -1,15 +1,11 @@
 {
   "name": "@digi1874/vue-carousel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Depends on the carousel Vue component of animate.css",
   "main": "dist/carousel.common.js",
   "module": "dist/carousel.esm.js",
   "unpkg": "dist/carousel.js",
   "jsdelivr": "dist/carousel.js",
-  "files": [
-    "src",
-    "dist/*.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digi1874/vue-carousel.git"
