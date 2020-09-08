@@ -10,4 +10,5 @@
 
 * 对IE支持：IE10+
 
-* [文档](https://digi1874.github.io/vue-carousel/docs/)
+* [文档](https://lin09.gitee.io/vue-carousel)(Gitee Pages)
+* [文档](https://digi1874.github.io/vue-carousel/)(GitHub Pages)
