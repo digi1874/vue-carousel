@@ -4,5 +4,6 @@ module.exports = {
   //     '../npm_package: 'carousel'
   //   }
   // }
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-carousel/docs/' : '/'
+  outputDir: "docs",
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-carousel/' : '/'
 }
