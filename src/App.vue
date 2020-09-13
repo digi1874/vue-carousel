@@ -2,7 +2,10 @@
   <div id="app">
     <header>
       <h3>一个依赖 animate.css v4 和 vue v2 的轮播组件</h3>
-      <Github />
+      <div>
+        <Gitee style="margin-right:10px" />
+        <Github />
+      </div>
     </header>
     <hr>
     <p>对IE支持：IE10+</p>
@@ -14,13 +17,17 @@
     <Params />
     <hr>
     <footer>
-      <Github />
-      <p>created © 2020</p>
+      <div>
+        <Gitee style="margin-right:10px" />
+        <Github />
+      </div>
+      <p>created ©2020 Created by saileidigi</p>
     </footer>
   </div>
 </template>
 
 <script>
+import Gitee from './pages/gitee'
 import Github from './pages/github'
 import Install from './pages/install'
 import Example from './pages/example'
@@ -28,6 +35,7 @@ import Params from './pages/params'
 
 export default {
   components: {
+    Gitee,
     Github,
     Install,
     Example,
