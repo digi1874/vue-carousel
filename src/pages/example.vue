@@ -176,10 +176,10 @@ import 'animate.css/source/_vars.css'
 import 'animate.css/source/_base.css'
 import 'animate.css/source/${cssPath(formData.inAnimate)}.css'` +
 (formData.inAnimate === formData.inAnimateOtherSide ? '' : `
-import 'animate.css/source/${cssPath(formData.inAnimateOtherSide)}'`) + `
+import 'animate.css/source/${cssPath(formData.inAnimateOtherSide)}.css'`) + `
 import 'animate.css/source/${cssPath(formData.outAnimate)}.css'` +
 (formData.outAnimate === formData.outAnimateOtherSide ? '' : `
-import 'animate.css/source/${cssPath(formData.outAnimateOtherSide)}'`) + `
+import 'animate.css/source/${cssPath(formData.outAnimateOtherSide)}.css'`) + `
 import '@digi1874/vue-carousel/dist/carousel.css'
 
 export default {
