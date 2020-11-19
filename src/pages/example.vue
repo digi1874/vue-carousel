@@ -171,7 +171,7 @@ const createCode = formData => {
 </template>
 
 <sc` + `ript>
-import { Carousel } form '@digi1874/vue-carousel'
+import { Carousel } from '@digi1874/vue-carousel'
 import 'animate.css/source/_vars.css'
 import 'animate.css/source/_base.css'
 import 'animate.css/source/${cssPath(formData.inAnimate)}.css'` +

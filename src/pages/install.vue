@@ -35,7 +35,7 @@ export default {
       cndCode: '<scr' + 'ipt src="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.2/dist/carousel.min.js"></sc' + `ript>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digi1874/vue-carousel@0.1.2/dist/carousel.min.css">`,
       npmCode1: `// main.js
-import Carousel form '@digi1874/vue-carousel'
+import Carousel from '@digi1874/vue-carousel'
 import '@digi1874/vue-carousel/dist/carousel.css'
 
 Vue.use(Carousel)
@@ -48,7 +48,7 @@ Vue.use(Carousel)
 ...
 <Carousel>...</Carousel>
 ...
-import { Carousel } form '@digi1874/vue-carousel'
+import { Carousel } from '@digi1874/vue-carousel'
 import '@digi1874/vue-carousel/dist/carousel.css'
 
 export default {
